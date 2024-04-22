@@ -2,7 +2,10 @@ import Image from "next/image";
 
 const About_us_section = () => {
   return (
-    <section className="flex flex-col justify-between items-center px-10 py-24 gap-20 lg:flex-row md:px-32 lg:items-start">
+    <section
+      id="aboutUs"
+      className="flex flex-col justify-between items-center px-10 py-24 gap-20 lg:flex-row md:px-32 lg:items-start"
+    >
       <div className="flex flex-col gap-3 lg:w-[50%]">
         <h1 className="text-center text-secondary font-bold mb-8 lg:text-left">
           A PROPOS DE NOUS
