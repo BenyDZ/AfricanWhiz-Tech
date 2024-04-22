@@ -32,10 +32,10 @@ const Navbar_mobile = () => {
           <Link href="/" className="flex items-center gap-3">
             <Image
               src="/images/logo.png"
-              width={24}
-              height={24}
+              width={"32"}
+              height={"32"}
               alt="AfricanWhiz-Tech Logo"
-              className="max-sm:size-10"
+              className="max-sm:size-30"
             />
 
             <p className="font-extrabold">AfricanWhiz-Tech</p>
