@@ -12,11 +12,11 @@ module.exports = {
     extend: {
       colors: {
         primary: "#7dce94",
+        secondary: "#3498DB",
       },
-      backgroundImage:{
-        'hero-view' : "url('/images/HEROVIEW_RESPONSIVE.png')",
-        'hero_mobile_circle' : "url('/images/circle.png')",
-      }
+      backgroundImage: {
+        "hero-view": "url('/images/HEROVIEW_RESPONSIVE.png')",
+      },
     },
   },
   plugins: [],
