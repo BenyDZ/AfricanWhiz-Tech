@@ -27,7 +27,7 @@ const Navbar = () => {
     }
   })
   return (
-    <nav className={header ? "fixed top-0 z-50 bg-white shadow-md w-full px-10 pt-3 lg:px-32":"w-full px-10 pt-3 lg:px-32 bg-white"}>
+    <nav className={header ? "fixed top-0 left-0 z-50 shadow-md w-full pt-3 px-10 lg:px-32 bg-white/80":"w-full pt-3"}>
       <div className="flex flex-row justify-between border-b-2 pb-1 border-primary ">
         <Link href="/" className="flex items-center gap-1">
           <Image

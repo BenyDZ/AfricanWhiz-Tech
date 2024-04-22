@@ -13,6 +13,10 @@ module.exports = {
       colors: {
         primary: "#7dce94",
       },
+      backgroundImage:{
+        'hero-view' : "url('/images/HEROVIEW_RESPONSIVE.png')",
+        'hero_mobile_circle' : "url('/images/circle.png')",
+      }
     },
   },
   plugins: [],
